@@ -1,0 +1,184 @@
+
+VTS: Vehicle Tracking system
+used by four regional telephone companies: SBC SOUTHWEST, SBC MIDWEST, SBC EAST and SBC WEST. 
+VTS to track their vehicles include: Installation and Maintenance (I&M), Special Services, and Construction.
+Each evening, the GPS unit downloads its location information to the VTS servers. 
+This information is then processed into "stop" and "transit" points that can be viewed via a Map or Map & Details report.
+Clients access the VTS application via a web-based browser application - VTS Reports. 
+The VTS clients are primarily field supervisors who use VTS to determine the physical location of their technicians and vehicles on the previous day.
+VTS Center for each of the 4 major SBC regions is equipped with a GUI application (VTS Manager) to maintain the relationships between vehicles-to-crews, technicians-tovehicles, 
+and technicians-to-crews so that the data in the VTS Reporting application is displayed appropriately for each organization,as well, as field questions and handle problems related to those relationships.
+VTS Business Objects universe was deployed in 2001 which allows analysis and reporting of VTS data via Business Objects 
+
+1.Dashboard:
+Manager console Dashboard is a summary representation of ‘Driver – Vehicle – GPS assignment details, Work Request Summary, Exception Count, 
+Technician Status’ of the reportees of a Manager who has logged in. 
+
+2.Vehicle Management:
+The Vehicle Management Tab is the one stop where Manager can find the detail information of Users (Manager and Technician), 
+Vehicle and GPS Unit. In this tab, Manager can have a complete control to view, update the information and control the Vehicle-GPS-User assignment. There are 2 sections, where in the first section list of Vehicle#, Driver ID, GPS Unit and its Manager ID of the Manager logged in will be given. The second section will be having the 5 tabs named “Driver”, “Vehicle”, “GPS”, “Crew” and “View Assignment History”.
+
+2.1 Driver 
+Driver – Vehicle Info • Driver – Portfolio Info 
+2.1.1 : Driver – Vehicle Info
+Driver Info  
+	Driver Info give the Last Name, First Name, ATTUID, Manager ID, Job Function Code.  
+Vehicle Info 
+	This tab gives the information like Vehicle ID, Effective Start Date & Time, Effective End Date & Time. 
+2.1.2 : Driver – Portfolio Info
+Driver Info  
+	Driver Info is the same which we find in the “Driver – Vehicle Info” tab.  
+Tour Info 
+	This tab gives the information about the Tour like Tour Start Time, Tour End Time,  Effective Start Date, Expiry Date.
+
+2.2 Vehicle
+Vehicle tab gives the Vehicle details of the record selected in the left pane. Here Vehicle #, Driver ATTUID, Effective Date & Time, Expire Date & Time.
+Manager can update the Vehicle details in this tab after clicking the “Update” button. This tab also give the list of unassigned Vehicles as a info to the Manager, so that it can be used. 
+
+2.3 GPS
+This tab gives the GPS Unit details. This list the information about GPS Unit#, Effective Start Date & Time, Expiry Date & Time.
+Manager is not allowed to update the GPS details. 
+
+2.4 Crew
+Crew tab will list out the Crew details. The Crew Name, Effective Date & Time, Expiry Date & Time and No Expiration.
+Manger cannot update the Crew Details.
+
+2.5 View Assignment History 
+This tab gives the history of the Vechile to Technician association. The tabular view gives the history with Vehicle #,
+Tech UID, Effective Start Date/ Time, Expiration Date/ Time, Modified by, Modification Date/Time. 
+
+2.5.1 Vin to Tech 
+This tab gives the history of the Vechile to Technician association. 
+The tabular view gives the history with Vehicle #, Tech UID, Effective Start Date/ Time, Expiration Date/ Time, Modified by, Modification Date/Time.
+
+
+2.5.2 VIN to GPS Unit 
+This tab gives the history of the Vehicle to GPS association. The tabular view gives the history with the Vehicle #, GPS Unit, Effective Start Date/ Time, 
+Expiration Date/ Time, Modified by, Modification Date/Time. 
+
+
+2.6 Tasks
+
+2.6.1 Search for Driver / Manager 
+Driver/ Manager can be searched by selecting from Hierarchy tree or Search by option 
+Hierarchy Tree 
+ 
+ Step 1: In the ‘Vehicle Management’ module, Select the Hierarchy button 
+
+Step 2: From the Hierarchy tree displayed, drill down to the Manager/ Driver required or search the name using the search box
+
+Step 3: Navigate between the ‘Driver’/ ‘Vehicle’/ ‘GPS’/ ‘Crew’/ ‘View Assignment history’ tab to know more details about the Driver/ Manager selected. 
+If Manager is selected from Hierarchy, then select one of the reporting drivers listed in the left pane to know the details.
+
+Note: Manager would be able to view only the peers or a level down in the Hierarchy tree
+
+‘Search By’ option 
+ 
+ Step 1: In the ‘Vehicle Management’ module, Select Driver ID or Manager ID option for the ‘Search by’ drop down
+
+ 
+2.6.2 Search for a GPS Unit 
+
+Step 1: In the ‘Vehicle Management’ module, Select GPS Unit option for the ‘Search by’ drop down 
+Step 2: Provide the desired GPS Unit # in the search box and click enter 
+Step 3: Navigate between the ‘Driver’/ ‘Vehicle’/ ‘GPS’/ ‘Crew’/ ‘View Assignment history’ tab to know more details about the GPS Unit searched 
+
+2.6.3 Search for a Vehicle
+
+Step 1: In the ‘Vehicle Management’ module, Select Vehicle # option for the ‘Search by’ drop down 
+
+Step 2: Provide the desired Vehicle # in the search box and click enter 
+
+Step 3: Navigate between the ‘Driver’/ ‘Vehicle’/ ‘GPS’/ ‘Crew’/ ‘View Assignment history’ tab to know more details about the GPS Unit searched 
+ 
+
+2.6.4 Update/ Unassign Driver of a Vehicle 
+Step 1: In the ‘Vehicle Management’ module, select the Vehicle from the table listed or search for the Vehicle using ‘Search By’ option  
+ 
+Step 2: Select the ‘Driver’ tab from the right pane 
+Step 3: From the ‘Driver – Vehicle Info’ tab under Driver tab, Click the Update button from the button panel 
+Step 4: From ATT UID drop down, Select ‘Unassigned’ or the driver to which the selected vechile should be assigned.
+Step 5: Set the Effective Date/ Time and Expiry Date/ Time under Vehicle Infor section which gets activated on the completion of step 4 
+Step 6: Click Save button from button panel 
+Step 7: After reviewing the summary of your action, Click Yes (Click No if you want to discard the changes) when prompted 
+
+2.6.5 Driver’s tour Info Updation
+Step 1: In the ‘Vehicle Management’ module, select the Vehicle from the table listed or search for the Vehicle using ‘Search By’ option  
+ 
+Step 2: Select the ‘Driver Tab’ from the right pane 
+ 
+2.6.6 Update / Unassign Vehicle of a Driver 
+Step 1: In the ‘Vehicle Management’ module, select the Vehicle from the table listed or search for the Vehicle using ‘Search By’ option  
+ 
+Step 2: Select the ‘Vehicle’ tab from the right pane 
+
+ Step 3: Click the Update button from the button panel 
+
+Step 4: From Vehicle # drop down, Select ‘Unassigned’ or the Vehicle to which the selected Driver should be assigned 
+ 
+ Step 5: Set the Effective Date & Time/ Expiry Date & Time as required   
+
+Step 6: Click Save button from button panel 
+ 
+Step 7: After reviewing the summary of your action, Click Yes (Click No if you want to discard the changes) when prompted
+
+3. Work Request 
+Work Request tab, by default list out all the work requested created under the logged in User (Manager ID). 
+Manager can also search a particular Work Request by searching the Vehicle ID or Advanced Search. 
+
+In this screen, Manager User can  
+Use the Advanced Search option to find a work request. 
+Select a Work Request and click “View Detail” button to see the details. 
+Click the “Create New” to create a Work Request.
+
+3.1 Advanced Search
+3.2 View Details
+3.2.1 Information: Gives the “Work Request Information”, “Vehicle and GPS Unit information”, “Manager ID and Information”. 
+3.2.2 This tab gives the “Problem Description”, “Special Access”, “Center Comments” and “Vendor Comments”. Manager can assign or unassign the #Code from the Center Comments selection box. 
+“Glossary for # Code” is given for the user knowledge. Manager can only view these details and cannot update it.
+
+3.3 Create New
+1. VID Identification 2. New Ticket 3. Review Information 
+
+VID Identification:In this tab, Manager should enter the Vehicle# and look up for the details.
+ If the entered Vehicle# is not correct the system will through the error. 
+Once the correct Vehicle# is given the corresponding “Vehicle Information” will be displayed. 
+There is another section “Service Loction Address” where the data will be pre populated from the system. User can still update them.  
+ 
+New Ticket :Here Manager needs to enter the information like Problem Description, GateCode, 
+Re-Installation into VIN, Additional Problem Description, Shipping Address & Additional Comments and Center Comment. 
+
+Review Information: It will give the overview of all the information given in previous step and presented to Manager for confirmation. 
+Clicking the Submit will create a Ticket.
+
+4.Map
+
+Map Type
+From Date 
+to Date
+Company
+Reporting Manager's ATTUID
+Crew
+
+5.Reports
+6. Misc
+Finding Technician Location: 
+UUID:
+Vehicle Info:
+Info Type:
+
+
+
+
+
+
+
+
+
+
+
+Sridhar Reddy
+
+Usha Rani, Akram, Sai, Sarath,Kamal, kavindra
+hbheemacharla@externetworks.com
+Mof33633

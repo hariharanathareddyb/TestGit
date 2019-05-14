@@ -1,0 +1,8 @@
+https://github.com/in28minutes/full-stack-with-angular-and-spring-boot
+https://www.logicbig.com/tutorials/spring-framework/spring-boot.html
+https://www.logicbig.com/tutorials/spring-framework/spring-security/jdbc-authentication.html
+https://www.finik.net/2010/10/24/multiple-working-folders-with-single-git-repository/
+
+http://localhost:8080/hello-world/path-variable/Ranga
+npm install -g @angular/cli@1
+npm install -g @angular/cli@6

@@ -1,0 +1,100 @@
+
+
+http://www.geo.uzh.ch/microsite/reproducible_research/post/rr-eclipse-git/
+
+Using generated security password: cc1f10f8-d717-4c6d-96eb-d24d54eec882
+
+https://www.youtube.com/results?search_query=github+commands
+
+
+git clone http://github.com/test.git
+copies the code into local computer
+git status
+git add test.java  staging area
+git status 
+git commit -m 'first version'
+git log 
+git status
+git push
+git difftool HEAD
+before commit 
+git checkout -- test.java  undoing the code
+git checkout-- .
+after commit changens
+
+git revert commitid  reverts and commits
+git revert -n commitid: change is not committed
+git commit
+
+git reset --hard commitid
+
+git branches
+
+Create, Merge and Delete
+
+git branch : list out all the branches.
+
+* master
+
+create new branch: git branch branch1
+
+git branch
+* master
+  branch1
+
+To activate the branch: 
+git checkout branch1
+
+git branch
+  master
+* branch1
+
+git merge branch1
+
+git pull
+
+git checkout branch1
+git push
+the current branch1 doesn't have the upstream branch
+
+then use the command
+git push --set-upstream branch1
+
+to delete the branch
+
+git checkout -b dummy  (branch)
+
+git branch -d dummy
+
+
+git config --global user.name "hariharanathareddyb"
+git config --global user.email mailid
+git commit -m "First commit" test.txt
+git config --global user.email hariharanathareddy.b@gmail.com
+git push -u origin master
+ 
+
+git config
+git init
+git clone
+git add
+git commit
+git diff
+git reset
+git status
+git rm
+git log
+git show
+git tag
+git branch
+git checkout
+git merge
+git remote
+git push
+git pull
+git stash
+
+git bash 
+
+https://examples.javacodegeeks.com/software-development/git/popular-git-commands-examples/
+
